@@ -2,7 +2,7 @@ import React from 'react';
 
 const EmailView = () => {
 	return(
-		<main className="bg-gray-1000 flex-1 text-gray-100 py-6 px-4">
+		<main className="bg-gray-1000 flex-1 text-gray-100 py-6 px-12">
 			<span className="flex h-10 items-center justify-between">
 				<h1 className="text-gray-100 font-medium text-lg">Manual Account Verification</h1>
 				<div className="text-sm inline-flex items-center space-x-2">
@@ -20,6 +20,24 @@ const EmailView = () => {
 					</button>
 				</div>
 			</span>
+			<div className="inline-flex items-center mt-4 flex space-x-1">
+				<div className="h-10 w-10 flex items-center -space-x-1 overflow-hidden">
+					<img className="inline-block h-8 w-8 rounded-full bg-blue-700" src="https://img-authors.flaticon.com/google.jpg" alt="avatar" />
+				</div>
+				<div>
+					<span className="text-sm block">Google</span>
+					<span className="text-xs block text-gray-300">noreply@google.com</span>
+				</div>
+			</div>
+			<section className="mt-12 text-base">
+				<p className="leading-8">
+					<span className="block mb-6">Hello Rohan Harikumar,</span>
+					<span className="block">Your account has been sucessfully verified. Please login to continue.</span>
+					<span className="block">With Mailtrap, you will be able to preview and debug your messages, test Bcc, collaborate with your team, forward emails, and much more. Send your first message and enjoy safe and easy email testing.</span>
+					<span className="mt-4 block">To learn more about Maitrap, check our Getting Started Guide. If you have any questions at any stage of your journey, we are here to help.</span>
+					<span className="block mt-8">Cheers,<br/> Google</span>
+				</p>
+			</section>
 	  	</main>
 	);
 }
