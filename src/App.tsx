@@ -1,14 +1,12 @@
 import React from 'react';
-import { Sidebar, ActionView } from './components';
+import { Sidebar, ActionView, EmailView } from './components';
 
 function App() {
   return (
     <div className="flex">
       <Sidebar/>
       <ActionView/>
-      <main className="bg-black flex-1">
-         asdfasdf
-      </main>
+      <EmailView/>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ActionView = () => {
 	return(
-		<div className="w-96 py-6 px-4 bg-gray-1000">
+		<div className="w-96 py-6 px-4 bg-gray-1000 border-r border-gray-700">
 			<span className="inline-flex h-10 items-center">
 				<h1 className="text-gray-200 font-semibold text-lg">Inbox</h1>
 			</span>
@@ -13,53 +13,45 @@ const ActionView = () => {
 				<input type="search" placeholder="Search from 1,026 mails" className="block py-2 px-2 pl-8 bg-gray-800 rounded-md w-full outline-none" />
 			</div>
 			<ul className="mt-4 text-gray-200 text-sm overflow-auto">
-				<li className="leading-6 h-24 mb-2 border-b border-gray-700">
-					<div className="flex items-center justify-between">
-						<h2 className="font-semibold">Google</h2>
-						<span className="text-xs">June 25</span>
-					</div>
-					<h3 className="font-base">Manual Account Verification</h3>
-					<p className="text-xs text-gray-400 font-light">Hello Rohan Harikumar, Your account has been sucessfully verified. Please login to cont...</p>
+				<li className="leading-6 border-b border-gray-700">
+					<button className="h-24 mb-2 px-3 text-left bg-gray-800 rounded-md">
+						<div className="flex items-center justify-between">
+							<h2 className="font-semibold">Google</h2>
+							<span className="text-xs">June 25</span>
+						</div>
+						<h3 className="font-base">Manual Account Verification</h3>
+						<p className="text-xs text-gray-400 font-light">Hello Rohan Harikumar, Your account has been sucessfully verified. Please login to cont...</p>
+					</button>
 				</li>
-				<li className="leading-6 h-24 mb-2 border-b border-gray-700">
-					<div className="flex items-center justify-between">
-						<h2 className="font-semibold">Google</h2>
-						<span className="text-xs">June 25</span>
-					</div>
-					<h3 className="font-base">Manual Account Verification</h3>
-					<p className="text-xs text-gray-400 font-light">Hello Rohan Harikumar, Your account has been sucessfully verified. Please login to cont...</p>
+				<li className="leading-6 border-b border-gray-700">
+					<button className="h-24 my-2 px-3 text-left rounded-md hover:bg-gray-800">
+						<div className="flex items-center justify-between">
+							<h2 className="font-semibold">Google</h2>
+							<span className="text-xs">June 25</span>
+						</div>
+						<h3 className="font-base">Manual Account Verification</h3>
+						<p className="text-xs text-gray-400 font-light">Hello Rohan Harikumar, Your account has been sucessfully verified. Please login to cont...</p>
+					</button>
 				</li>
-				<li className="leading-6 h-24 mb-2 border-b border-gray-700 opacity-50">
-					<div className="flex items-center justify-between">
-						<h2 className="font-semibold">Google</h2>
-						<span className="text-xs">June 25</span>
-					</div>
-					<h3 className="font-base">Manual Account Verification</h3>
-					<p className="text-xs text-gray-400 font-light">Hello Rohan Harikumar, Your account has been sucessfully verified. Please login to cont...</p>
+				<li className="leading-6 border-b border-gray-700">
+					<button className="h-24 my-2 px-3 text-left rounded-md opacity-50 hover:bg-gray-800">
+						<div className="flex items-center justify-between">
+							<h2 className="font-semibold">Google</h2>
+							<span className="text-xs">June 25</span>
+						</div>
+						<h3 className="font-base">Manual Account Verification</h3>
+						<p className="text-xs text-gray-400 font-light">Hello Rohan Harikumar, Your account has been sucessfully verified. Please login to cont...</p>
+					</button>
 				</li>
-				<li className="leading-6 h-24 mb-2 border-b border-gray-700 opacity-50">
-					<div className="flex items-center justify-between">
-						<h2 className="font-semibold">Google</h2>
-						<span className="text-xs">June 25</span>
-					</div>
-					<h3 className="font-base">Manual Account Verification</h3>
-					<p className="text-xs text-gray-400 font-light">Hello Rohan Harikumar, Your account has been sucessfully verified. Please login to cont...</p>
-				</li>
-				<li className="leading-6 h-24 mb-2 border-b border-gray-700 opacity-50">
-					<div className="flex items-center justify-between">
-						<h2 className="font-semibold">Google</h2>
-						<span className="text-xs">June 25</span>
-					</div>
-					<h3 className="font-base">Manual Account Verification</h3>
-					<p className="text-xs text-gray-400 font-light">Hello Rohan Harikumar, Your account has been sucessfully verified. Please login to cont...</p>
-				</li>
-				<li className="leading-6 h-24 mb-2 border-b border-gray-700">
-					<div className="flex items-center justify-between">
-						<h2 className="font-semibold">Google</h2>
-						<span className="text-xs">June 25</span>
-					</div>
-					<h3 className="font-base">Manual Account Verification</h3>
-					<p className="text-xs text-gray-400 font-light">Hello Rohan Harikumar, Your account has been sucessfully verified. Please login to cont...</p>
+				<li className="leading-6 border-b border-gray-700">
+					<button className="h-24 my-2 px-3 text-left rounded-md hover:bg-gray-800">
+						<div className="flex items-center justify-between">
+							<h2 className="font-semibold">Google</h2>
+							<span className="text-xs">June 25</span>
+						</div>
+						<h3 className="font-base">Manual Account Verification</h3>
+						<p className="text-xs text-gray-400 font-light">Hello Rohan Harikumar, Your account has been sucessfully verified. Please login to cont...</p>
+					</button>
 				</li>
 			</ul>
 		</div>
