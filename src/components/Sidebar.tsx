@@ -12,8 +12,8 @@ const Sidebar = () => {
   					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
 				</svg>
 			</button>
-			<ul className="mt-4 text-sm">
-				<li className="mb-2">
+			<ul className="mt-4 text-sm space-y-2">
+				<li>
 					<button className="py-2 px-2 w-full flex items-center rounded-md text-left bg-gray-800">
 						<span className="h-6 w-6 inline-flex items-center justify-center">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5">
@@ -24,7 +24,7 @@ const Sidebar = () => {
 						<span className="ml-auto text-xs font-medium text-gray-100">1,026</span>
 					</button>
 				</li>
-				<li className="mb-2">
+				<li>
 					<button className="py-2 px-2 w-full flex items-center rounded-md text-left hover:bg-gray-800">
 						<span className="h-6 w-6 inline-flex items-center justify-center">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5">
@@ -35,7 +35,7 @@ const Sidebar = () => {
 						<span className="ml-auto text-xs font-medium text-gray-100">1,026</span>
 					</button>
 				</li>
-				<li className="mb-2">
+				<li>
 					<button className="py-2 px-2 w-full flex items-center rounded-md text-left hover:bg-gray-800">
 						<span className="h-6 w-6 inline-flex items-center justify-center">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5">
@@ -46,7 +46,7 @@ const Sidebar = () => {
 						<span className="ml-auto text-xs font-medium text-gray-100">1,026</span>
 					</button>
 				</li>
-				<li className="mb-2">
+				<li>
 					<button className="py-2 px-2 w-full flex items-center rounded-md text-left hover:bg-gray-800">
 						<span className="h-6 w-6 inline-flex items-center justify-center">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5">
