@@ -1,7 +1,6 @@
 import React from 'react';
 
 const EmailView = () => {
-
 	return(
 		<main className="bg-gray-1000 flex-1 text-gray-100 py-6 px-12">
 			<span className="flex h-10 items-center justify-between">

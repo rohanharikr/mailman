@@ -16,21 +16,18 @@ const ActionView = () => {
 			</div>
 			</div>
 			<ul className="flex-1 mt-4 text-gray-200 text-sm overflow-auto divide-y divide-solid divide-gray-700">
+				<EmailCard emailRead={true}/>
+				<EmailCard/>
+				<EmailCard emailRead={true}/>
+				<EmailCard emailRead={true}/>
+				<EmailCard/>
+				<EmailCard emailRead={true}/>
+				<EmailCard emailRead={true}/>
 				<EmailCard/>
 				<EmailCard/>
 				<EmailCard/>
 				<EmailCard/>
-				<EmailCard/>
-				<EmailCard/>
-				<EmailCard/>
-				<EmailCard/>
-				<EmailCard/>
-				<EmailCard/>
-				<EmailCard/>
-				<EmailCard/>
-				<EmailCard/>
-				<EmailCard/>
-				<EmailCard/>
+				<EmailCard emailRead={true}/>
 			</ul>
 		</div>
 	);
