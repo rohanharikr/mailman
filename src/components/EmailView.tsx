@@ -1,6 +1,7 @@
 import React from 'react';
 
 const EmailView = () => {
+
 	return(
 		<main className="bg-gray-1000 flex-1 text-gray-100 py-6 px-12">
 			<span className="flex h-10 items-center justify-between">
@@ -38,6 +39,10 @@ const EmailView = () => {
 					<span className="block mt-8">Cheers,<br/> Google</span>
 				</p>
 			</section>
+			{/*<section className="mt-8 relative">
+				<textarea placeholder="Type your reply here" className="w-full bg-gray-800 rounded-md p-6" />
+				<button className="absolute px-4 py-1 rounded-md bottom-6 left-6 bg-blue-500">Send reply</button>
+			</section>*/}
 	  	</main>
 	);
 }

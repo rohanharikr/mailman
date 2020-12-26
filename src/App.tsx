@@ -3,7 +3,7 @@ import { Sidebar, ActionView, EmailView } from './components';
 
 function App() {
   return (
-    <div className="flex">
+    <div className="flex overflow-hidden h-screen">
       <Sidebar/>
       <ActionView/>
       <EmailView/>
